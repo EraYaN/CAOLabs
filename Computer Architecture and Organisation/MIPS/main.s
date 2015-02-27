@@ -40,7 +40,7 @@ for_get:	bge	$s1, $s2, exit_get	# if i>=n go to exit_for_get
 		j	for_get
 exit_get:	move	$a0, $sp		# $a0=base address af the array
 		move	$a1, $s2		# $a1=size of the array
-		jal	isort			# isort(a,n)
+		jal	sortByCounting		# isort(a,n)
 						# In this moment the array has been 
 						# sorted and is in the stack frame 
 		la	$a0, str3		# Print of str3
