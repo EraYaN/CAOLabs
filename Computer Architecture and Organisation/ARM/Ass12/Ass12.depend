@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1425034100 source:c:\users\lars\pictures\documents\github\caolabs\computer architecture and organisation\arm\ass12\core_cm3.c
+	<stdint.h>
+
+1425034100 source:c:\users\lars\pictures\documents\github\caolabs\computer architecture and organisation\arm\ass12\startup.c
+	<stdint.h>
+	"LPC13xx.h"
+
+1425034100 c:\users\lars\pictures\documents\github\caolabs\computer architecture and organisation\arm\ass12\lpc13xx.h
+	"core_cm3.h"
+	"system_LPC13xx.h"
+
+1425034100 c:\users\lars\pictures\documents\github\caolabs\computer architecture and organisation\arm\ass12\core_cm3.h
+	<stdint.h>
+	"core_cmInstr.h"
+	"core_cmFunc.h"
+
+1425034100 c:\users\lars\pictures\documents\github\caolabs\computer architecture and organisation\arm\ass12\core_cminstr.h
+	<intrinsics.h>
+
+1425034100 c:\users\lars\pictures\documents\github\caolabs\computer architecture and organisation\arm\ass12\core_cmfunc.h
+	<intrinsics.h>
+
+1425034101 c:\users\lars\pictures\documents\github\caolabs\computer architecture and organisation\arm\ass12\system_lpc13xx.h
+	<stdint.h>
+
+1425034100 source:c:\users\lars\pictures\documents\github\caolabs\computer architecture and organisation\arm\ass12\system_lpc13xx.c
+	<stdint.h>
+	"LPC13xx.h"
+
+1425628991 source:c:\users\lars\pictures\documents\github\caolabs\computer architecture and organisation\arm\ass12\delay.c
+	<stdint.h>
+	"LPC13xx.h"
+
