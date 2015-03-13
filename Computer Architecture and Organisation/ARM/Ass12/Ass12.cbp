@@ -40,6 +40,10 @@
 		<Unit filename="core_cm3.h" />
 		<Unit filename="core_cmFunc.h" />
 		<Unit filename="core_cmInstr.h" />
+		<Unit filename="delay.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="delay.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

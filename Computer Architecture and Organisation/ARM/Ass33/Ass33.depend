@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1425034100 source:c:\users\lars\pictures\documents\github\caolabs\computer architecture and organisation\arm\ass33\core_cm3.c
+	<stdint.h>
+
+1426240816 source:c:\users\lars\pictures\documents\github\caolabs\computer architecture and organisation\arm\ass33\leddriver.c
+	<stdint.h>
+	"LPC13xx.h"
+	"leddriver.h"
+
+1425034100 c:\users\lars\pictures\documents\github\caolabs\computer architecture and organisation\arm\ass33\lpc13xx.h
+	"core_cm3.h"
+	"system_LPC13xx.h"
+
+1425034100 c:\users\lars\pictures\documents\github\caolabs\computer architecture and organisation\arm\ass33\core_cm3.h
+	<stdint.h>
+	"core_cmInstr.h"
+	"core_cmFunc.h"
+
+1425034100 c:\users\lars\pictures\documents\github\caolabs\computer architecture and organisation\arm\ass33\core_cminstr.h
+	<intrinsics.h>
+
+1425034100 c:\users\lars\pictures\documents\github\caolabs\computer architecture and organisation\arm\ass33\core_cmfunc.h
+	<intrinsics.h>
+
+1425034101 c:\users\lars\pictures\documents\github\caolabs\computer architecture and organisation\arm\ass33\system_lpc13xx.h
+	<stdint.h>
+
+1426240816 c:\users\lars\pictures\documents\github\caolabs\computer architecture and organisation\arm\ass33\leddriver.h
+	<stdint.h>
+
+1425034100 source:c:\users\lars\pictures\documents\github\caolabs\computer architecture and organisation\arm\ass33\startup.c
+	<stdint.h>
+	"LPC13xx.h"
+
+1425034100 source:c:\users\lars\pictures\documents\github\caolabs\computer architecture and organisation\arm\ass33\system_lpc13xx.c
+	<stdint.h>
+	"LPC13xx.h"
+
+1426246161 source:c:\users\lars\pictures\documents\github\caolabs\computer architecture and organisation\arm\ass33\main.c
+	"LPC13xx.h"
+	"leddriver.h"
+
