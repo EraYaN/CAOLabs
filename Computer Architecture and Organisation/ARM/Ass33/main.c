@@ -1,8 +1,9 @@
 #include "LPC13xx.h"
 #include "leddriver.h"
+#include "delay.h"
 
-#define TMP102_READ_ADDR 0x49
-#define TMP102_WRITE_ADDR 0x48
+#define TMP102_READ_ADDR 0x91
+#define TMP102_WRITE_ADDR 0x90
 #define TMP102_DATLEN 2
 
 
@@ -20,44 +21,44 @@ static void init()
     LPC_I2C->SCLH = SystemCoreClock/200000;
     LPC_I2C->SCLL = SystemCoreClock/200000;
 
-    LPC_I2C->CONSET |= (1<<6);
+    LPC_I2C->CONSET = (1<<6);
 }
 
 static void i2cstart()
 {
-    LPC_I2C->CONSET |= (1<<5);
+    LPC_I2C->CONSET = (1<<5);
 }
 
 static void i2cstartclr()
 {
-    LPC_I2C->CONCLR |= (1<<5);
+    LPC_I2C->CONCLR = (1<<5);
 }
 
 static void i2cstop()
 {
-    LPC_I2C->CONSET |= (1<<4);
+    LPC_I2C->CONSET = (1<<4);
 }
 
 static void i2creset()
 {
-    LPC_I2C->CONCLR |= (1<<2);
-    LPC_I2C->CONCLR |= (1<<3);
-    LPC_I2C->CONCLR |= (1<<5);
+    LPC_I2C->CONCLR = (1<<2);
+    LPC_I2C->CONCLR = (1<<3);
+    LPC_I2C->CONCLR = (1<<5);
 }
 
 static void i2cack()
 {
-    LPC_I2C->CONSET |= (1<<2);
+    LPC_I2C->CONSET = (1<<2);
 }
 
 static void i2cackclr()
 {
-    LPC_I2C->CONCLR |= (1<<2);
+    LPC_I2C->CONCLR = (1<<2);
 }
 
 static void i2csiclr()
 {
-    LPC_I2C->CONCLR |= (1<<3);
+    LPC_I2C->CONCLR = (1<<3);
 }
 
 static uint8_t i2creadbyte()
@@ -74,24 +75,26 @@ static void i2cwritebyte(uint8_t d)
 static void setpointerregister()
 {
     i2cstart();
-    set_leds(1);
+    //set_leds(1);
     while((LPC_I2C->CONSET & (1<<3)) != (1<<3))
     {
-        set_leds(LPC_I2C->CONSET);
+        //set_leds(LPC_I2C->CONSET);
     }
-    set_leds(2);
+    //set_leds(2);
     i2cwritebyte(TMP102_WRITE_ADDR);
+    i2csiclr();
     while((LPC_I2C->CONSET & (1<<3)) != (1<<3))
     {
     }
-    set_leds(4);
+    //set_leds(4);
     i2cstartclr();
     i2cwritebyte(0);
+    i2csiclr();
     while((LPC_I2C->CONSET & (1<<3)) != (1<<3))
     {
     }
-    set_leds(8);
-    i2cstop();
+    //set_leds(8);
+    i2csiclr();
 }
 
 static uint8_t datacount = 0;
@@ -106,11 +109,11 @@ int main (void)
     i2cstart();
     while (1)
     {
-        led_data = 4;
-        set_leds(led_data);
+        //led_data = 4;
         //process i2c events
         if(LPC_I2C->CONSET & (1<<3))
         {
+            //set_leds(LPC_I2C->STAT);
             switch(LPC_I2C->STAT)
             {
             case 0x08:
@@ -124,6 +127,19 @@ int main (void)
                 break;
             case 0x40:
                 i2cstartclr();
+                i2cack();
+                break;
+            case 0x48:
+                i2cstop();
+                //led_data=1;
+                //set_leds(led_data);
+                delay_ms(250);
+                setpointerregister();
+                i2cstart();
+                break;
+            case 0x50:
+                data[datacount] = i2creadbyte();
+                datacount++;
                 if(datacount == TMP102_DATLEN)
                 {
                     i2cackclr();
@@ -133,24 +149,22 @@ int main (void)
                     i2cack();
                 }
                 break;
-            case 0x48:
-                i2cstop();
-                i2cstart();
-                break;
-            case 0x50:
-                data[datacount] = i2creadbyte();
-                datacount++;
-                break;
             case 0x58:
                 //last byte
                 data[datacount] = i2creadbyte();
                 datacount = 0;
                 //map data to leds LS four bits of first received bye and MS four bits of second received byte
-                led_data = ((data[0]&0xF)<<4)|(data[1]&0xF0);
+                //led_data = ((data[1]&0x0F)>>4)|((data[0]&0xF)<<4);
+                led_data=data[0];
+                set_leds(led_data);
                 //ask for temp again
+                i2cstop();
+                delay_ms(250);
+                setpointerregister();
                 i2cstart();
                 break;
             }
+            //led_data=LPC_I2C->STAT;
             //clear interrupt
             i2csiclr();
 

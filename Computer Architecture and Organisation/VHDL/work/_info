@@ -1,0 +1,412 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dC:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+Ealu
+Z1 w1427451691
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/alu.vhdl
+Z6 FC:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/alu.vhdl
+l0
+L5
+Ve_W6C3S4nBRC4K65X0;E82
+!s100 OSRWaGIf=G:iRfIP3z:Ci3
+Z7 OP;C;10.4;61
+32
+Z8 !s110 1427453761
+!i10b 1
+Z9 !s108 1427453761.414000
+Z10 !s90 -reportprogress|300|-work|work|C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/alu.vhdl|
+Z11 !s107 C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/alu.vhdl|
+!i113 1
+Z12 o-work work -O0
+Z13 tExplicit 1
+Abehavior
+R2
+R3
+R4
+DEx4 work 3 alu 0 22 e_W6C3S4nBRC4K65X0;E82
+l19
+L18
+VS<idicgidgjGY4BfMcPJl2
+!s100 mjD<iUUJP[L;E56dLaSIF2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ealucontrol
+Z14 w1427451695
+R3
+R4
+R0
+Z15 8C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/alucontrol.vhdl
+Z16 FC:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/alucontrol.vhdl
+l0
+L4
+VbcZ=SoUXAQRJjz`5cX`SM0
+!s100 Z?G40[6<<SG8lajTAn[il0
+R7
+32
+Z17 !s110 1427453763
+!i10b 1
+Z18 !s108 1427453762.984000
+Z19 !s90 -reportprogress|300|-work|work|C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/alucontrol.vhdl|
+Z20 !s107 C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/alucontrol.vhdl|
+!i113 1
+R12
+R13
+Abehavior
+R3
+R4
+DEx4 work 10 alucontrol 0 22 bcZ=SoUXAQRJjz`5cX`SM0
+l16
+L15
+VfZJFgWc^_g8zcYQa_86=42
+!s100 6R=e2:328mNPM:[CTigNN2
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Econtrol
+Z21 w1427451694
+R3
+R4
+R0
+Z22 8C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/control.vhdl
+Z23 FC:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/control.vhdl
+l0
+L4
+VFjJK;DjcRlnj=CB7n98zM3
+!s100 ;F3_?z9ZRK[JN<AK85=]i1
+R7
+32
+Z24 !s110 1427453764
+!i10b 1
+Z25 !s108 1427453764.363000
+Z26 !s90 -reportprogress|300|-work|work|C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/control.vhdl|
+Z27 !s107 C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/control.vhdl|
+!i113 1
+R12
+R13
+Abehavior
+R3
+R4
+DEx4 work 7 control 0 22 FjJK;DjcRlnj=CB7n98zM3
+l21
+L20
+V=i`I^70kd9nKg>bQ2Td@S3
+!s100 K;?OQ8_0<JY[7PdRXo2e>3
+R7
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R12
+R13
+Eextend
+Z28 w1426845944
+R3
+R4
+R0
+Z29 8C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/extend.vhdl
+Z30 FC:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/extend.vhdl
+l0
+L4
+VEEX<B_1i1dnf78@V^iL3j0
+!s100 ^olnm165gmP>W@ZMoB<a_3
+R7
+32
+Z31 !s110 1427453765
+!i10b 1
+Z32 !s108 1427453765.795000
+Z33 !s90 -reportprogress|300|-work|work|C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/extend.vhdl|
+Z34 !s107 C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/extend.vhdl|
+!i113 1
+R12
+R13
+Abehavior
+R3
+R4
+DEx4 work 6 extend 0 22 EEX<B_1i1dnf78@V^iL3j0
+l15
+L13
+V6L]JoaRJ@[iKRJj4`W4]L3
+!s100 Z5oe=8;iC2iIZC21lOQ^;1
+R7
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R12
+R13
+Ejump
+R28
+R2
+R3
+R4
+R0
+Z35 8C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/jump.vhdl
+Z36 FC:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/jump.vhdl
+l0
+L5
+V^jm^DeQFCgzk@GeJlTMO]0
+!s100 lX1YU@ahZF;LU^3okokcH2
+R7
+32
+Z37 !s110 1427453767
+!i10b 1
+Z38 !s108 1427453767.179000
+Z39 !s90 -reportprogress|300|-work|work|C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/jump.vhdl|
+Z40 !s107 C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/jump.vhdl|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+R4
+DEx4 work 4 jump 0 22 ^jm^DeQFCgzk@GeJlTMO]0
+l21
+L19
+Voiad>RF6DjbOe7n8mBN;Y3
+!s100 ]OjC30HA6mLCOmfdjoCSn0
+R7
+32
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 1
+R12
+R13
+Ememory
+Z41 w1427453738
+R2
+R3
+R4
+R0
+Z42 8C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/test1.vhdl
+Z43 FC:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/test1.vhdl
+l0
+L5
+VeNdDL6=ZVYG^X<AD]G16f0
+!s100 binHQm[S:G9bP:lGF<4KK2
+R7
+32
+Z44 !s110 1427453775
+!i10b 1
+Z45 !s108 1427453775.836000
+Z46 !s90 -reportprogress|300|-work|work|C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/test1.vhdl|
+Z47 !s107 C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/test1.vhdl|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+R4
+Z48 DEx4 work 6 memory 0 22 eNdDL6=ZVYG^X<AD]G16f0
+l25
+L20
+V2F??@5;MIRo>L_ZXYJOnn1
+!s100 k7nU@P2jOdbP^Z?>>;BVI1
+R7
+32
+R44
+!i10b 1
+R45
+R46
+R47
+!i113 1
+R12
+R13
+Emips
+Z49 w1427453745
+R2
+R3
+R4
+R0
+Z50 8C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/mips.vhdl
+Z51 FC:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/mips.vhdl
+l0
+L5
+Vz:YhAc4bhoaW]OlZ50H:j1
+!s100 WIhP2D^H9jZ]f2^c7EUBY1
+R7
+32
+Z52 !s110 1427453770
+!i10b 1
+Z53 !s108 1427453770.144000
+Z54 !s90 -reportprogress|300|-work|work|C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/mips.vhdl|
+Z55 !s107 C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/mips.vhdl|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+R4
+DEx4 work 4 mips 0 22 z:YhAc4bhoaW]OlZ50H:j1
+l127
+L13
+VmbN_L_7B7gR_j=FSU6T<32
+!s100 2LL^hZBE@U]g@z[IU_4:O1
+R7
+32
+R52
+!i10b 1
+R53
+R54
+R55
+!i113 1
+R12
+R13
+Emips_tb
+R28
+R3
+R4
+R0
+Z56 8C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/mips_tb.vhdl
+Z57 FC:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/mips_tb.vhdl
+l0
+L4
+Ve><NPXQaEKfCGfhTN7>7c3
+!s100 VmfDZ1X=N<1n?g3MO?IDL3
+R7
+32
+Z58 !s110 1427453771
+!i10b 1
+Z59 !s108 1427453771.639000
+Z60 !s90 -reportprogress|300|-work|work|C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/mips_tb.vhdl|
+Z61 !s107 C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/mips_tb.vhdl|
+!i113 1
+R12
+R13
+Abehaviour
+R3
+R4
+DEx4 work 7 mips_tb 0 22 e><NPXQaEKfCGfhTN7>7c3
+l20
+L7
+VV_HOM?P0;lShdXW2]Rkad0
+!s100 ^nai?7<cAD_7<M4<M?]nF0
+R7
+32
+R58
+!i10b 1
+R59
+R60
+R61
+!i113 1
+R12
+R13
+Epc
+R28
+R2
+R3
+R4
+R0
+Z62 8C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/pc.vhdl
+Z63 FC:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/pc.vhdl
+l0
+L5
+Vf;PeSoCN:UP=bI^6fi6MG2
+!s100 z[S0JLgRle:Pd73L1EEjE0
+R7
+32
+Z64 !s110 1427453773
+!i10b 1
+Z65 !s108 1427453773.043000
+Z66 !s90 -reportprogress|300|-work|work|C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/pc.vhdl|
+Z67 !s107 C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/pc.vhdl|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+R4
+DEx4 work 2 pc 0 22 f;PeSoCN:UP=bI^6fi6MG2
+l19
+L17
+VoRbO=98TC511DHe_za9cU0
+!s100 gc?_2@IN0kzY2J4eCVjD^3
+R7
+32
+R64
+!i10b 1
+R65
+R66
+R67
+!i113 1
+R12
+R13
+Eregisters
+R28
+R2
+R3
+R4
+R0
+Z68 8C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/registers.vhdl
+Z69 FC:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/registers.vhdl
+l0
+L5
+VoJD]hD@Q0:>^l_VY@hMLc2
+!s100 @]3<2_fIBAPIjf5f98?2m1
+R7
+32
+Z70 !s110 1427453774
+!i10b 1
+Z71 !s108 1427453774.426000
+Z72 !s90 -reportprogress|300|-work|work|C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/registers.vhdl|
+Z73 !s107 C:/Users/Lars/Pictures/Documents/GitHub/CAOLabs/Computer Architecture and Organisation/VHDL/work/registers.vhdl|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+R4
+DEx4 work 9 registers 0 22 oJD]hD@Q0:>^l_VY@hMLc2
+l24
+L20
+VGP:F4I`WLzBHZQo`WTdOo3
+!s100 XMz`MSz_e2n_gMI2aN>W@0
+R7
+32
+R70
+!i10b 1
+R71
+R72
+R73
+!i113 1
+R12
+R13

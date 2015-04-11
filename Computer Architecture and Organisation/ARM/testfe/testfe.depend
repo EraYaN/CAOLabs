@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1427465670 source:c:\users\lars\pictures\documents\github\caolabs\computer architecture and organisation\arm\testfe\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
